@@ -7,7 +7,7 @@
   },
   "scripts": {
     "preinstall":"bash dependencies.sh",
-    "prestart":"bash load-cape.sh",
+    "prestart":"bash before-node-start.sh",
     "start": "node adc.js"
   },
   "version": "0.0.1",
