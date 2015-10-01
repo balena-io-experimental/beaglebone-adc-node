@@ -6,7 +6,7 @@
     "url": "https://github.com/shaunmulligan/beaglebone-adc-node.git"
   },
   "scripts": {
-    "prestart":"load-cape.sh",
+    "prestart":"bash load-cape.sh",
     "start": "adc.js"
   },
   "version": "0.0.1",
