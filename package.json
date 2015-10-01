@@ -1,0 +1,19 @@
+{
+  "name": "resin-beaglebone-demo",
+  "description": "read ADC values with node.js on the Beaglebone using resin.io",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shaunmulligan/beaglebone-adc-node.git"
+  },
+  "scripts": {
+    "prestart":"load-cape.sh",
+    "start": "adc.js"
+  },
+  "version": "0.0.1",
+  "dependencies": {
+    "octalbonescript_capemgr4_1": "~1.0.11"
+  },
+  "engines": {
+      "node": "0.10.38"
+  }
+}
