@@ -2,7 +2,7 @@ FROM resin/beaglebone-node:0.10.41-20160218
 
 # Use apt-get to install any dependencies
 RUN apt-get update && apt-get install -yq \
-    moo && \
+    cowsay && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /usr/src/app
