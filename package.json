@@ -6,13 +6,12 @@
     "url": "https://github.com/shaunmulligan/beaglebone-adc-node.git"
   },
   "scripts": {
-    "preinstall":"bash dependencies.sh",
     "prestart":"bash before-node-start.sh",
     "start": "node adc.js"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "dependencies": {
-    "octalbonescript_capemgr4_1": "~1.0.11"
+    "octalbonescript": "1.1.1"
   },
   "engines": {
       "node": "0.10.38"
